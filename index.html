@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sorteio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+
+</head>
+<body>
+    <header><img src="logo.png" alt="Logo" width="250px"></header>
+    <main>
+        <img src="https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98657855/fee_786_587_png" alt="Imagem">
+        <button id="sortear">Sortear</button>
+        <div id="countdown" style="display: none; font-size: 80px; color: #333; text-align: center; margin-top: 20px;"></div>
+        <div id="sorteado"></div>
+        <canvas id="confetti-canvas" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;"></canvas>
+        <audio id="celebration-sound" src="celebration.mp3" preload="auto"></audio>
+        <audio id="music" src="music.mp3" preload="auto"></audio>
+    </main>
+</body>
+</html>
