@@ -115,10 +115,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     let id = sorteado.id;
                     let empresa = sorteado.empresa;
                     sorteadoDiv.innerHTML = `
-                        <h1>Nome: ${nome}</h1>
+                        <h1>Empresa: ${empresa}</h1>
                         <div id="idemp">
                             <h2>ID: ${id}</h2>
-                            <h3>Empresa: ${empresa}</h3>
+                            <h3> ${nome}</h3>
                         </div>
                     `;
 
