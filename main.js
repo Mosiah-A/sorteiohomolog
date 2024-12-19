@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <h1>Empresa: ${empresa}</h1>
                         <div id="idemp">
                             <h2>ID: ${id}</h2>
-                            <h3> ${nome}</h3>
+                            <h3> cliente: ${nome}</h3>
                         </div>
                     `;
 
